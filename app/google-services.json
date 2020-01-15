@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "96217879099",
+    "firebase_url": "https://laptopwearable.firebaseio.com",
+    "project_id": "laptopwearable",
+    "storage_bucket": "laptopwearable.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96217879099:android:4c398073730548ad",
+        "android_client_info": {
+          "package_name": "com.example.administrator.laptopwearabledemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96217879099-d9s8mn6ihfvusqeqra017v5b057qiv4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.administrator.laptopwearabledemo",
+            "certificate_hash": "04a2ce884573dc587c8a7cabb924bd8c58e563e8"
+          }
+        },
+        {
+          "client_id": "96217879099-d1e7a1r7taa9q3l26pb24fq2of7t71bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7KbsGf7dUvjlzGQcYU8iEojrxRvA818Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96217879099-d1e7a1r7taa9q3l26pb24fq2of7t71bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

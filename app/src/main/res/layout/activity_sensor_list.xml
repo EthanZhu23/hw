@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Widget.Holo.Light.ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:fillViewport="true"
+    tools:context=".SensorList">
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:paddingBottom="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="@string/SensorList"
+
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <Switch
+            android:id="@+id/switch20"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/HeartRate"
+            android:textColor="@color/white"
+            />
+
+        <Switch
+            android:id="@+id/switch21"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Accelerometer"
+            android:textColor="@color/white"/>
+
+        <Switch
+            android:id="@+id/switch22"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Gyroscope"
+            android:textColor="@color/white"/>
+
+        <Switch
+            android:id="@+id/switch23"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Light"
+            android:textColor="@color/white"/>
+
+        <Switch
+            android:id="@+id/switch24"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Geomagnetic"
+            android:textColor="@color/white"/>
+
+        <Switch
+            android:id="@+id/switch25"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Capacitance"
+            android:textColor="@color/white"/>
+
+        <Switch
+            android:id="@+id/switch26"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Barometer"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="#fae501"
+            android:text="@string/Enable"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>
